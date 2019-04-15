@@ -1,0 +1,101 @@
+<!doctype html>
+ <html>
+  <head>
+  <meta charset="utf-8">
+  <title> Register </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ </head>
+
+<body>
+   <div class="container"> </div>
+      <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+         <a class="nav-link text-white btn btn-primary" href="index.html">HOMEPAGE</font> </a>&nbsp;
+        </li>
+        <li class="nav-item">
+         <a class="nav-link text-white btn btn-primary" href="films.html">FILMS</a>&nbsp;
+        </li>
+        <li class="nav-item">
+         <a class="nav-link text-white btn btn-primary" href="books.html">BOOKS</a>&nbsp;
+        </li>
+        <li class="nav-item">
+         <a class="nav-link text-white btn btn-primary" href="musics.html">MUSICS</a>&nbsp;
+        </li>
+        <li class="nav-item">
+         <a class="nav-link text-white btn btn-primary" href="usefullinks.html">USEFUL LINKS</a>&nbsp;
+        </li>
+        <li class="nav-item">
+         <a class="nav-link text-white btn btn-primary" href="contactme.html">CONTACT ME</a>&nbsp;
+        </li>
+        <li class="nav-item">
+         <a class="nav-link text-white btn btn-primary" href="register.html"><font size="5">REGISTER</a>&nbsp; <br><br>
+        </li>
+      </ul>
+      </nav>
+ <center>
+
+ <br><br><br>
+
+<center>
+     <div class="container">
+  
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="uname">Name & Surname:</label>
+      <input type="text" class="form-control" id="uname" placeholder="Enter your name" name="uname">
+    </div>
+    <div class="form-group">
+      <label for="theDate">Date of Birth:</label>
+      <input type="date" class="form-control" id="theDate" placeholder="Enter your birthdate" name="date">
+    </div>
+    <div class="form-group">
+      <label for="theEmail">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="thePassword">Password:</label>
+      <input type="password" class="form-control" id="thePassword" placeholder="Enter your password" name="thePassword">
+    </div>
+    <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Gender
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="">Male</a>
+      <a class="dropdown-item" href="">Female</a>
+    </div>
+  </div>
+     <div class="checkbox">
+      <label for="checkbox">Books:</label>
+      <input type="checkbox" name="checkbox">
+     </div>
+     <div class="checkbox">
+      <label for="checkbox">Films:</label>
+      <input type="checkbox" name="checkbox">
+     </div>
+     <div class="checkbox">
+      <label for="checkbox">Games:</label>
+      <input type="checkbox" name="checkbox">
+     </div>
+     <div class="checkbox">
+      <label for="checkbox">Music:</label>
+      <input type="checkbox" name="checkbox">
+     </div>
+     <div class="comment">
+       <label for="comment">About me:</label>
+       <textarea class="form-control" rows="5" id="comment"></textarea>
+     </div>
+  
+    <button type="submit" class="btn btn-primary">Send</button>
+  </div>
+
+  </center>
+ </body>
+</html>
+
+
